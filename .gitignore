@@ -1,2 +1,6 @@
 venv/
-data/
+# Ignore all files in the data/ directory
+data/*
+
+# Allow .dvc files in the data/ directory
+!data/*.dvc
